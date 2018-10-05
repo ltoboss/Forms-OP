@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Forms</string>
+    <string name="title">Registro de médicos</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido paterno</string>
+    <string name="age">Edad</string>
+    <string name="email">Email</string>
+</resources>
