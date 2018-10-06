@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
 
+               
+
                 AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
                 builder1.setTitle("Datos");
                 builder1.setMessage("Nombre: "+ nombre.getText() + "\n"+
@@ -63,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
                                     "Edad: "+edad.getText()+ "\n"+
                                     "Email: "+u_email.getText()+ "\n"+
                                     "Telefono: "+u_telefono.getText()+ "\n"+
+                                    "Tipo de sangre : "+spHora.getSelectedItem().toString() + "\n"+
                                     "Fecha: "+u_fecha.getDayOfMonth() + " de "+ u_fecha.getMonth()+ " del "+u_fecha.getYear()+ "\n"+
                                     "Hora: "+u_hora.getHour() + ":"+ u_hora.getMinute() + "\n"
                 );
