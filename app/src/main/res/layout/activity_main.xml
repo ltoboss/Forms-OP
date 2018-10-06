@@ -33,7 +33,7 @@
             android:hint="@string/name"
             android:inputType="textEmailAddress"
             android:layout_width="fill_parent"
-            android:height="65px"
+            android:height="100px"
             android:layout_marginTop="35px"
             >
         </EditText>
@@ -44,18 +44,7 @@
             android:hint="@string/surname"
             android:inputType="textEmailAddress"
             android:layout_width="fill_parent"
-            android:height="65px"
-            android:layout_marginTop="35px"
-            >
-        </EditText>
-
-        <EditText
-            android:id="@+id/txtEmail"
-            android:layout_height="wrap_content"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress"
-            android:layout_width="fill_parent"
-            android:height="65px"
+            android:height="100px"
             android:layout_marginTop="35px"
             >
         </EditText>
@@ -66,11 +55,104 @@
             android:hint="@string/age"
             android:inputType="number"
             android:layout_width="fill_parent"
-            android:height="65px"
+            android:height="100px"
             android:layout_marginTop="35px"
             >
         </EditText>
 
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_width="fill_parent"
+            android:height="100px"
+            android:layout_marginTop="35px"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_height="wrap_content"
+            android:hint="@string/telefono"
+            android:inputType="number"
+            android:maxLength="10"
+            android:layout_width="fill_parent"
+            android:height="100px"
+            android:layout_marginTop="35px"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtNumberCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/credit_card"
+            android:maxLength="16"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:layout_marginTop="35px"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtCVV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cvv"
+            android:maxLength="3"
+            android:digits="0123456789"
+            android:inputType="numberPassword"
+            android:layout_marginTop="35px"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha"
+            android:layout_marginTop="35px"
+            />
+
+        <DatePicker
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            >
+        </DatePicker>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hora"
+            android:layout_marginTop="35px"
+            />
+
+        <TimePicker
+            android:id="@+id/txtHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            >
+        </TimePicker>
+
+
     </LinearLayout>
+
+        <!--<android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:text="@string/save"
+            android:layout_margin="16dp" />
+        -->
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"/>
 
 </ScrollView>

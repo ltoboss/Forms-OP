@@ -5,4 +5,10 @@
     <string name="surname">Apellido paterno</string>
     <string name="age">Edad</string>
     <string name="email">Email</string>
+    <string name="telefono">Telefono</string>
+    <string name="credit_card">Número de tarjeta</string>
+    <string name="cvv">CVV</string>
+    <string name="fecha">Fecha de cita</string>
+    <string name="hora">Hora de cita</string>
+    <string name="save">Guardar</string>
 </resources>
