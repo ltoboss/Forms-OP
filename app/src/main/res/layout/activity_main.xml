@@ -117,7 +117,9 @@
         <android.support.v7.widget.AppCompatSpinner
             android:id="@+id/spHora"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:height="100px"
+            >
 
         </android.support.v7.widget.AppCompatSpinner>
 
@@ -157,6 +159,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/save"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorAccent"
             />
 
         <TextView

@@ -50,10 +50,6 @@ public class MainActivity extends AppCompatActivity {
         // Apply the adapter to the spinner
         spHora.setAdapter(adapter);
 
-
-
-
-
         Button button = (Button) findViewById(R.id.btnSave);
         button.setOnClickListener(new View.OnClickListener() {
 
