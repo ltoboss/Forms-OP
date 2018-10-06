@@ -5,9 +5,11 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     EditText cvv_cc;
     DatePicker u_fecha;
     TimePicker u_hora;
+    Spinner spHora;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
         cvv_cc= findViewById(R.id.txtCVV);
         u_fecha= findViewById(R.id.txtFecha);
         u_hora= findViewById(R.id.txtHora);
+
+        spHora = findViewById(R.id.spHora);
+
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.blood_type, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        // Apply the adapter to the spinner
+        spHora.setAdapter(adapter);
+
 
 
 

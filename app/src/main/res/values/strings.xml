@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Forms</string>
     <string name="title">Registro de médicos</string>
@@ -8,6 +9,7 @@
     <string name="telefono">Telefono</string>
     <string name="credit_card">Número de tarjeta</string>
     <string name="cvv">CVV</string>
+    <string name="blood">Tipo de sangre</string>
     <string name="fecha">Fecha de cita</string>
     <string name="hora">Hora de cita</string>
     <string name="save">Guardar</string>

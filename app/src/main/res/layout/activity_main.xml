@@ -110,6 +110,20 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/blood"
+            android:layout_marginTop="35px"
+            />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/fecha"
             android:layout_marginTop="35px"
             />
